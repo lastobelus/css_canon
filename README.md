@@ -4,29 +4,28 @@ Imposes a "canonical" css/sass/[SMACSS][2] structure on a Rails 3.x project.
 
 * Assumes using [Zurb Foundation][1]. Pull requests for Bootstrap or other frameworks welcome.
 * imposes the following directory structures
-```
-├── app
-│   ├── assets
-│   │   └── stylesheets
-│   │       ├── application.css.scss
-│   │       ├── base.css.scss
-│   │       ├── foundation_and_overrides.scss
-│   │       ├── home.css.scss
-│   │       ├── layout
-│   │       │   └── grid_additions.css.scss
-│   │       ├── module
-│   │       │   └── 
-│   │       └── vendor_overrides
-│   │           └── 
-└── vendor
-    ├── assets
-    │   └── stylesheets
-    │       ├── non_sass
-    │       │   └──
-    │       ├── sass
-    │       │   └──
-    │       └── vendor.css
-```
+
+      ├── app
+      │   ├── assets
+      │   │   └── stylesheets
+      │   │       ├── application.css.scss
+      │   │       ├── base.css.scss
+      │   │       ├── foundation_and_overrides.scss
+      │   │       ├── home.css.scss
+      │   │       ├── layout
+      │   │       │   └── grid_additions.css.scss
+      │   │       ├── module
+      │   │       │   └── 
+      │   │       └── vendor_overrides
+      │   │           └── 
+      └── vendor
+          ├── assets
+          │   └── stylesheets
+          │       ├── non_sass
+          │       │   └──
+          │       ├── sass
+          │       │   └──
+          │       └── vendor.css
 
 ## Example
 For an example rails app using this structure, see [this repo][3]

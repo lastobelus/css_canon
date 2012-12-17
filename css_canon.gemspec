@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = CssCanon::VERSION
   gem.authors       = ["Michael Johnston"]
   gem.email         = ["lastobelus@mac.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Imposes a "canonical" css/sass/SMACSS structure on a Rails 3.x project.}
+  gem.summary       = %q{Imposes a "canonical" css/sass/SMACSS structure on a Rails 3.x project.}
+  gem.homepage      = "https://github.com/lastobelus/css_canon"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
@@ -18,4 +18,5 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_dependency  "zurb-foundation", "~> 3.2.0"
+
 end
