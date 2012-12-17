@@ -5,6 +5,8 @@ Imposes a "canonical" css/sass/[SMACSS][2] structure on a Rails 3.x project.
 * Assumes using [Zurb Foundation][1]. Pull requests for Bootstrap or other frameworks welcome.
 * imposes the following directory structures
 
+```
+
       ├── app
       │   ├── assets
       │   │   └── stylesheets
@@ -26,6 +28,8 @@ Imposes a "canonical" css/sass/[SMACSS][2] structure on a Rails 3.x project.
           │       ├── sass
           │       │   └──
           │       └── vendor.css
+
+```
 
 ## Example
 For an example rails app using this structure, see [this repo][3]
