@@ -49,7 +49,7 @@ Or install it yourself as:
 
 ## Usage
 
-    rails g css_canon
+    rails g css_canon:install
 
 ## Contributing
 
