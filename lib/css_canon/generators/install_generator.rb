@@ -19,6 +19,7 @@ module CssCanon
         copy_file "app/assets/stylesheets/base.css.scss"
         directory "app/assets/stylesheets/layout"
         directory "app/assets/stylesheets/module"
+        directory "app/assets/stylesheets/vendor_overrides"
       end
 
       def copy_vendor_asset_templates
