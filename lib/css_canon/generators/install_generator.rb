@@ -24,7 +24,7 @@ module CssCanon
 
       def copy_vendor_asset_templates
         say "setting up vendor/assets/stylesheets..."
-        copy_file "vendor/assets/stylesheets/vendor.css.scss"
+        directory "vendor/assets/stylesheets"
       end
 
       def modify_zurb_overrides_file
